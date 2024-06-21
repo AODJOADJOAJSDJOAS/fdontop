@@ -1,0 +1,151 @@
+/* نمط أساسي */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #654321; /* بني */
+    color: #fff;
+}
+
+/* رأس الصفحة */
+header {
+    background: #2c1d0c; /* بني غامق */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #d2691e; /* بني ساطع */
+}
+
+/* القسم الرئيسي */
+main {
+    padding: 20px 0;
+}
+
+/* قسم */
+.section {
+    padding: 20px 0;
+}
+
+.section .container {
+    width: 80%;
+    margin: 0 auto;
+    background: #2c1d0c; /* بني غامق */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* قائمة الهاكرات */
+.hacker-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hacker-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    color: #2c1d0c; /* بني غامق */
+}
+
+.hacker-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.hacker-item h3 {
+    margin: 10px 0;
+}
+
+.hacker-item p {
+    color: #555;
+}
+
+.hacker-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2c1d0c; /* بني غامق */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hacker-item a:hover {
+    background: #d2691e; /* بني ساطع */
+}
+
+/* نموذج التواصل */
+form {
+    display: flex;
+    flex-direction: column;
+    color: #2c1d0c; /* بني غامق */
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #2c1d0c; /* بني غامق */
+}
+
+form button {
+    padding: 10px;
+    background: #2c1d0c; /* بني غامق */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #d2691e; /* بني ساطع */
+}
+
+/* تذييل الصفحة */
+footer {
+    background: #2c1d0c; /* بني غامق */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
